@@ -31,8 +31,6 @@ const Country = () => {
                     }
         }, [])
 
-        console.log(countries);
-
         // shows in console if Error appears
         if (error !== null){
             console.log(error)
