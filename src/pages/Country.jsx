@@ -31,6 +31,8 @@ const Country = () => {
                     }
         }, [])
 
+        console.log(countries);
+
         // shows in console if Error appears
         if (error !== null){
             console.log(error)
@@ -67,7 +69,7 @@ const Country = () => {
                                 <div className='flex'><h3 className='text-lg font-medium leading-normal mr-3'>Continent:</h3> <p className="leading-7 inline">{country.continents}</p></div>
                                 <div className='flex'><h3 className='text-lg font-medium leading-normal mr-3'>Capital:</h3> <p className="leading-7 inline">{country.capital}</p></div>
                                 <div className='flex'><h3 className='text-lg font-medium leading-normal mr-3'>Total Population:</h3> <p >{country.population}</p></div>
-                                <a className=" pb-2  text-azure-blue transition-all delay-300 ease-in hover:border-b-2 hover:border-azure-blue"href={country.maps.openStreetMaps} target="_blank" >Map view</a>
+                                <a className=" pb-2  text-azure-blue transition-all delay-300 ease-in hover:border-b-2 hover:border-azure-blue"href={country.maps.googleMaps} target="_blank" >Map view</a>
                             
                         </motion.div> ))}
             </div>  }
