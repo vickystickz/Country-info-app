@@ -54,7 +54,7 @@ const Country = () => {
             />
             </div> : 
 
-            <div className='grid grid-cols-3 gap-y-12 my-10'>
+            <div className='grid  justify-center lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-y-12 my-10'>
                 {countries.map((country,id) => (
                         <motion.div 
                             key={id}
