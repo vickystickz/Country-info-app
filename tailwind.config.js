@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       colors: {
         'azure-blue': '#007FFF',
-        
+        'blue-black': '#100f1c'
       }
     },
   },

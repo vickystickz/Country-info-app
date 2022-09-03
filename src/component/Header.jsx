@@ -10,7 +10,7 @@ const header = () => {
           </div>
           <nav>
             <ul>
-              <Link to="/about"><li className='p-3 rounded-md justify-center bg-black hover:p-2.5 '>About</li></Link>
+              <Link to="/about"><li className='p-3 rounded-md justify-center bg-blue-black hover:p-2.5'>About</li></Link>
             </ul>
           </nav>
       </header>
