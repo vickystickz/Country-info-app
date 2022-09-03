@@ -60,7 +60,7 @@ const Country = () => {
                             key={id}
                             initial={{opacity:0 ,translateX:-50, translateY:-50}} 
                             animate={{opacity:1 , translateX:0 , translateY:0}} 
-                            transition={{duration: 0.2}}
+                            transition={{duration: 0.1}}
                             className="w-80 h rounded border-1 border-white text-left">
                                 <img className='w-full h-48 object-cover rounded ' src={country.flags.png} alt={country.name.common} />
                                 <h1 className='flex text-2xl font-bold mt-2'>{country.name.common}</h1>
